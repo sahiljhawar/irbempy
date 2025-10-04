@@ -30,4 +30,4 @@ jobs:
           pip install .
 
       - name: Run tests
-        run: python -m pytest IRBEM
+        run: python -m pytest tests
